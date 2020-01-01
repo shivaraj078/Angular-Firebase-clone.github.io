@@ -1,0 +1,149 @@
+.body-text {
+  position: absolute;
+  width: 27%;
+  top: 175px;
+  left: 117px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.demo-text {
+  position: absolute;
+  top: 85px;
+  left: 110px;
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.spark-plan {
+  position: absolute;
+  top: 86px;
+  left: 200px;
+  border-radius: 246;
+  border: none;
+  outline: none;
+  background-color: #1369c9;
+  border-radius: 50px;
+  height: 33px;
+}
+.spark-plan:hover {
+  transition: ease-in-out 0.4s;
+  background-color: rgb(190, 181, 181);
+}
+
+.icons {
+  position: absolute;
+  border: 1px solid white;
+  top: 282px;
+  left: 180px;
+  font-size: 49px;
+  color: inherit;
+  border-radius: 50%;
+  overflow: hidden;
+  outline: none;
+  width: 4%;
+  background: none;
+}
+
+.icons2 {
+  position: absolute;
+  border: 1px solid white;
+  top: 282px;
+  left: 249px;
+  font-size: 49px;
+  color: inherit;
+  border-radius: 50%;
+  overflow: hidden;
+  outline: none;
+  width: 4%;
+  background: none;
+}
+
+.icons3 {
+  position: absolute;
+  border: 1px solid white;
+  top: 282px;
+  left: 112px;
+  font-size: 49px;
+  color: inherit;
+  border-radius: 50%;
+  overflow: hidden;
+  outline: none;
+  width: 4%;
+  background: none;
+}
+
+.icons4 {
+  position: absolute;
+  border: 1px solid white;
+  top: 282px;
+  left: 350px;
+  font-size: 49px;
+  color: inherit;
+  border-radius: 50%;
+  overflow: hidden;
+  outline: none;
+  width: 4%;
+  background: none;
+}
+
+.icons .fa.fa-android {
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  left: 18px;
+  bottom: 7px;
+}
+
+.icons2 .fa.fa-globe {
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  left: 18px;
+  bottom: 7px;
+}
+
+.icons3 .fa.fa-apple {
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  left: 19px;
+  bottom: 7px;
+}
+
+.specialline {
+  position: absolute;
+  color: #fff;
+  top: 278px;
+  left: 322px;
+  font-size: 51px;
+  opacity: 0.4;
+  font-weight: lighter;
+}
+
+.icons4 img {
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  height: 26px;
+  left: 14px;
+  bottom: 4px;
+  width: 26px;
+}
+/* .unity {
+  width: 31px;
+  height: 29px;
+  position: relative;
+  left: 12px;
+  bottom: 5px;
+} */
+
+.getstarted {
+  position: absolute;
+  top: 354px;
+  left: 115px;
+  color: #bbd5f6;
+  font-size: 17px;
+}

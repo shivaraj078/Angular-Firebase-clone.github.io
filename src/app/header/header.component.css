@@ -1,0 +1,28 @@
+.navbar {
+  position: absolute;
+  left: 60px;
+  width: 100%;
+  color: white;
+}
+
+.navbar-brand {
+  color: #b9d4f8;
+  font-weight: 600;
+  font-size: 16px;
+  float: left;
+}
+.gotodocs {
+  position: absolute;
+  right: 215px;
+  top: 15px;
+  font-weight: 600;
+  color: #b9d4f8;
+}
+
+.bellicon {
+  position: absolute;
+  top: 17px;
+  right: 171px;
+  font-size: 20px;
+  color: #b9d4f8;
+}

@@ -1,0 +1,124 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" [(opened)]="opened">
+    <div class="logoandname">
+      <img class="logo" src="../../assets/img/logo.png" alt="" />
+      <h3 class="w3-bar-item firebase">Firebase</h3>
+    </div>
+    <div class="sidebar-options">
+      <div class="container">
+        <a href="#" class="w3-bar-item w3-button homebutton">
+          <i class="fa fa-home"></i>
+        </a>
+
+        <a href="#" style="text-decoration:none">
+          <span class="overviewtext">
+            <p>Project Overview</p>
+          </span>
+        </a>
+
+        <a href="#" class="w3-bar-item w3-button settingsbutton">
+          <i class="fa fa-cog"></i>
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Develop
+          <span><p class="para">Authentication,Database,Storage..</p></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Quality
+
+          <span>
+            <p class="para">Crashlytics,Performance,TestLab..</p>
+          </span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Analytics
+          <span>
+            <p class="para">Dashboard,Events,Conversations..</p>
+          </span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Grow
+          <span>
+            <p class="para">Predictions,A/B Testing,Cloud Mes..</p>
+          </span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    </div>
+    <div class="extension">
+      <i class="fa fa-cubes"></i>
+      <span class="extension-text">Extensions</span>
+    </div>
+    <div>
+      <span>
+        <p class="para1">Spark</p>
+        <p class="para2">Free $0/month</p>
+      </span>
+
+      <button class="btn btn-primary upgrade">Upgrade</button>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <button (click)="opened = !opened" class="navbartoggle">
+      <i class="fa fa-angle-double-right"></i>
+    </button>
+
+    <app-home></app-home>
+  </mat-sidenav-content>
+</mat-sidenav-container>
